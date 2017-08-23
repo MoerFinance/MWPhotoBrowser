@@ -1,3 +1,26 @@
+
+# Update third library dependecy
+
+## Update
+
+- MBProgressHUD
+	- 0.9 -> 1.0.0
+- SDWebImage
+	- 3.7 ->  4.1.0
+- DACircularProgress
+	- 2.3 -> 2.3.1
+
+## Usage by `:git`
+
+Add the following line to your Podfile:
+
+```
+pod 'MWPhotoBrowser', :git => 'https://github.com/MoerFinance/MWPhotoBrowser.git'
+
+```
+
+------
+
 # MWPhotoBrowser
 
 <!--[![CI Status](http://img.shields.io/travis/Michael Waterfall/MWPhotoBrowser.svg?style=flat)](https://travis-ci.org/Michael Waterfall/MWPhotoBrowser)-->
