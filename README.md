@@ -6,11 +6,11 @@
 - MBProgressHUD
 	- 0.9 -> 1.0.0
 - SDWebImage
-	- 3.7 ->  4.1.0
+	- 3.7 ->  4.0.0
 - DACircularProgress
 	- 2.3 -> 2.3.1
 
-## Usage by `:git`
+## Usage
 
 Add the following line to your Podfile:
 
