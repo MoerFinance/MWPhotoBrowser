@@ -41,6 +41,7 @@ Pod::Spec.new do |s|
   s.dependency 'DACircularProgress', '~> 2.3.1'
 
   # SDWebImage
-  s.dependency 'SDWebImage', '~> 4.1.2'
+  #s.dependency 'SDWebImage', '~> 4.1.2'
+  s.dependency 'SDWebImage'
 
 end
