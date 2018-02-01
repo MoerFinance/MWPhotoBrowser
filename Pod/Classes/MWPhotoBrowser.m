@@ -1521,10 +1521,10 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 
 // Enable/disable control visiblity timer
 - (void)hideControlsAfterDelay {
-	if (![self areControlsHidden]) {
+    if (!self.alwaysShowControls && ![self areControlsHidden]) {
         [self cancelControlHiding];
-		_controlVisibilityTimer = [NSTimer scheduledTimerWithTimeInterval:self.delayToHideElements target:self selector:@selector(hideControls) userInfo:nil repeats:NO];
-	}
+        _controlVisibilityTimer = [NSTimer scheduledTimerWithTimeInterval:self.delayToHideElements target:self selector:@selector(hideControls) userInfo:nil repeats:NO];
+    }
 }
 
 - (BOOL)areControlsHidden { return (_toolbar.alpha == 0); }
