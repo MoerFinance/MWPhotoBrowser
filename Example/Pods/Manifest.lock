@@ -9,10 +9,10 @@ PODS:
   - MWPhotoBrowser (2.1.2-0.3.0):
     - DACircularProgress (~> 2.3.1)
     - MBProgressHUD (~> 1.0)
-    - SDWebImage (~> 4.1.2)
-  - SDWebImage (4.1.2):
-    - SDWebImage/Core (= 4.1.2)
-  - SDWebImage/Core (4.1.2)
+    - SDWebImage
+  - SDWebImage (4.3.0):
+    - SDWebImage/Core (= 4.3.0)
+  - SDWebImage/Core (4.3.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -32,8 +32,8 @@ SPEC CHECKSUMS:
   Expecta+Snapshots: ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  MWPhotoBrowser: 56297a7f512f73d90a9b7e9f26d31e2ec91123df
-  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  MWPhotoBrowser: 6a4de11f4c723daee18b4b4264d50796cdcd74a2
+  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 99700fd8a0f57bfaf49e051a2478b7210e1d16cf

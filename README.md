@@ -1,12 +1,10 @@
 
-# Update third library dependecy
-
 ## Update
 
 - MBProgressHUD
 	- 0.9 -> 1.0.0
 - SDWebImage
-	- 3.7 ->  4.0.0
+	- 3.7 ->  4.3.0
 - DACircularProgress
 	- 2.3 -> 2.3.1
 
@@ -266,3 +264,5 @@ MWPhotoBrowser is available under the MIT license. See the LICENSE file for more
 ## Notes
 
 Demo photos kindly provided by [Oliver Waters](<http://twitter.com/oliverwaters>).
+
+
